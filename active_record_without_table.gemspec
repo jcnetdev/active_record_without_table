@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'active_record_without_table'
-  s.version = '1.0.20080703'
+  s.version = '1.0.20080703-2'
   s.date = '2008-07-03'
   
   s.summary = "Allows creation of ActiveRecord models that work without any database backend"
@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
               "init.rb",
               "rails/init.rb",
               "active_record_without_table.gemspec",
-              "lib/active_record",
               "lib/active_record/base_without_table.rb"]
 
   s.test_files = ["test/abstract_unit.rb",
