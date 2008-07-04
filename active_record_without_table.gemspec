@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'active_record_without_table'
-  s.version = '1.0.20080703-2'
+  s.version = '1.0.200807032'
   s.date = '2008-07-03'
   
   s.summary = "Allows creation of ActiveRecord models that work without any database backend"
