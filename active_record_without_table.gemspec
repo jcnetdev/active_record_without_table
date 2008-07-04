@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
 
   s.add_dependency 'activerecord', ['>= 2.0']
-  
+   
   s.files = ["CHANGELOG",
               "MIT-LICENSE",
               "README",
