@@ -6,13 +6,13 @@ Gem::Specification.new do |s|
   s.summary = "Allows creation of ActiveRecord models that work without any database backend"
   s.description = "Get the power of ActiveRecord models, including validation, without having a table in the database."
   
-  s.authors = ['Jacques Crocker', 'Jonathan Viney']
+  s.authors = ['RailsJedi', 'Jonathan Viney']
   s.email = 'railsjedi@gmail.com'
   s.homepage = 'http://github.com/jcnetdev/active_record_without_table'
   
-  s.has_rdoc = false
-  # s.rdoc_options = ["--main", "README"]
-  #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
+  s.has_rdoc = true
+  s.rdoc_options = ["--main", "README"]
+  s.extra_rdoc_files = ["README"]
 
   s.add_dependency 'activerecord', ['>= 2.0']
    
