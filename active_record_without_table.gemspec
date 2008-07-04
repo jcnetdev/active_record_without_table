@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'active_record_without_table'
-  s.version = '1.0.200807032'
+  s.version = '1.0.200807033'
   s.date = '2008-07-03'
   
   s.summary = "Allows creation of ActiveRecord models that work without any database backend"
@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.email = 'railsjedi@gmail.com'
   s.homepage = 'http://github.com/jcnetdev/active_record_without_table'
   
-  s.has_rdoc = true
-  s.rdoc_options = ["--main", "README"]
+  s.has_rdoc = false
+  # s.rdoc_options = ["--main", "README"]
   #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
 
   s.add_dependency 'activerecord', ['>= 2.0']
